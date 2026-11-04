@@ -11,8 +11,8 @@ export class FirstComponent {
   name: string = "Lucas Alves";
   age: number = 23;
   job: string = "Programador";
-  hobbies: object = ["Estudar", "Jogar no PC", "Jogar bola"]
-  car: object = {
+  hobbies: string[] = ["Estudar", "Jogar no PC", "Jogar bola"]
+  car = {
 
     model: "Celta",
     year: "2012",
